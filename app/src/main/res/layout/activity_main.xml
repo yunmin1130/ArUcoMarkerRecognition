@@ -6,12 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextureView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/texture"
+        />
+
     <!-- Camera view 영상 출력-->
-    <org.opencv.android.JavaCameraView
+    <!--<org.opencv.android.JavaCameraView
         android:id="@+id/activity_surface_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"
         opencv:camera_id="any" />
-
+-->
 </LinearLayout>
