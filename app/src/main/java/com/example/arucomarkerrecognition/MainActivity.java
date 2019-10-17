@@ -125,9 +125,10 @@ public class MainActivity extends AppCompatActivity
 
             matResult = new Mat(matInput.rows(), matInput.cols(), matInput.type());
 
-        ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());
+        //ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());
 
-        return matResult;
+        //return matResult;
+        return matInput;
     }
 
 
